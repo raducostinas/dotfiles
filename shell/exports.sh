@@ -9,10 +9,12 @@ export RADU_THEME_PWD_MODE="full" # full, short, home_relative
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
-export JAVA_HOME='/Library/Java/JavaVirtualMachines/amazon-corretto-15.jdk/Contents/Home'
+export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+export M2_HOME="$HOME/.m2"
 export GEM_HOME="$HOME/.gem"
-export GOPATH="$HOME/.go"
-
+export GOPATH="$HOME/01-Code/GO"
+export GVM_HOME="$HOME/.gvm"
+export NVM_DIR="$HOME/.nvm"
 # ------------------------------------------------------------------------------
 # Apps
 # ------------------------------------------------------------------------------
@@ -32,7 +34,9 @@ path+=(
   "$DOTLY_PATH/bin"
   "$DOTFILES_PATH/bin"
   "$JAVA_HOME/bin"
+  "$M2_HOME/bin"
   "$GEM_HOME/bin"
+  "$GVM_HOME/bin"
   "$GOPATH/bin"
   "$HOME/.cargo/bin"
   "/usr/local/opt/ruby/bin"
