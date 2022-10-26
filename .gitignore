@@ -5,6 +5,9 @@ shell/zsh/**/**.zwc
 shell/zsh/**/**.zwc.old
 shell/zsh/.zim
 
+# Modules
+modules
+
 # nvim
 editors/nvim/plugged
 
