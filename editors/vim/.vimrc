@@ -22,6 +22,9 @@ set showmatch
 set termguicolors
 set sw=2
 set relativenumber
+set laststatus=2
+set noshowmode
+
 so ~/.dotfiles/editors/vim/plugins.vim
 so ~/.dotfiles/editors/vim/plugin-config.vim
 so ~/.dotfiles/editors/vim/maps.vim
@@ -29,8 +32,6 @@ so ~/.dotfiles/editors/vim/maps.vim
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 highlight Normal ctermbg=NONE
-set laststatus=2
-set noshowmode
 
 au BufNewFile,BufRead *.html set filetype=htmldjango
 lua require'colorizer'.setup()
