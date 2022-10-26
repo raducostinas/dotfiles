@@ -28,3 +28,15 @@ alias i.='(idea $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
 alias up='dot package update_all'
+
+# Vim
+alias v=openNvim
+
+function openNvim {
+  if [ $# -eq 0 ]; then
+    nvim ./
+  else
+    nvim $1
+  fi
+}
+
