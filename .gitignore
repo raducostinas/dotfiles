@@ -8,8 +8,11 @@ shell/zsh/.zim
 # Modules
 modules
 
+#vim-plug
+editors/vim/autoload
+
 # nvim
-editors/nvim/plugged
+editors/vim/plugged
 
 .DS_Store
 .netrwhist
