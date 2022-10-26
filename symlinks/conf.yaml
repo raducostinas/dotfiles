@@ -20,3 +20,4 @@
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore_global: git/.gitignore_global
     ~/.vimrc: editors/vim/.vimrc
+    ~/.config/nvim/init.vim: editors/nvim/init.vim
