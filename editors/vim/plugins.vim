@@ -21,8 +21,8 @@ Plug 'alvan/vim-closetag'
 Plug 'tpope/vim-surround'
 
 " tmux
-"Plug 'benmills/vimux'
-"Plug 'christoomey/vim-tmux-navigator'
+Plug 'benmills/vimux'
+Plug 'christoomey/vim-tmux-navigator'
 
 " autocomplete
 Plug 'sirver/ultisnips'
@@ -46,5 +46,12 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'tpope/vim-fugitive'
 
 Plug 'tpope/vim-repeat'
+
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', { 'tag': '0.1.0'}
+
+
+" Play
+Plug 'ThePrimeagen/vim-be-good'
 
 call plug#end()

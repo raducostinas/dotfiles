@@ -24,6 +24,9 @@ set sw=2
 set relativenumber
 set laststatus=2
 set noshowmode
+set splitbelow
+set splitright
+set hidden
 
 so ~/.dotfiles/editors/vim/plugins.vim
 so ~/.dotfiles/editors/vim/plugin-config.vim
