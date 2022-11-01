@@ -17,6 +17,14 @@ nnoremap <Leader>w :w<CR>
 nnoremap <Leader>q :q<CR>
 nnoremap <Leader>Q :q!<CR>
 
+
+nmap <Leader>T :enew<CR>
+nmap <Leader>l :bnext<CR>
+nmap <Leader>h :bprevious<CR>
+nmap <Leader>bq :bp <BAR> bd #<CR>
+nmap <Leader>bl :ls<CR>
+
+
 " Use ctrl-[hjkl] to select the active split!
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-J> <C-W><C-J>
@@ -29,11 +37,6 @@ nnoremap <silent> <Leader><C-j> :TmuxNavigateDown<cr>
 nnoremap <silent> <Leader><C-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <Leader><C-l> :TmuxNavigateRight<cr>
 
-nmap <Leader>T :enew<CR>
-nmap <Leader>l :bnext<CR>
-nmap <Leader>h :bprevious<CR>
-nmap <Leader>bq :bp <BAR> bd #<CR>
-nmap <Leader>bl :ls<CR>
 
 " Find files using Telescope command-line sugar.
 nnoremap <leader>ff <cmd>Telescope find_files<cr>

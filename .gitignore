@@ -13,6 +13,7 @@ editors/vim/autoload
 
 # nvim
 editors/vim/plugged
+editors/nvim/plugin/packer_compiled.lua
 
 .DS_Store
 .netrwhist

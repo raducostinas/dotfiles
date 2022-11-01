@@ -1,7 +1,7 @@
 " Install vim-plug if not found
 if empty(glob('~/.dotfiles/editors/vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.dotfiles/editors/vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+     silent !curl -fLo ~/.dotfiles/editors/vim/autoload/plug.vim --create-dirs
+       \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 endif
 
 " Run PlugInstall if there are missing plugins
