@@ -14,6 +14,7 @@ editors/vim/autoload
 # nvim
 editors/vim/plugged
 editors/nvim/plugin/packer_compiled.lua
+editors/nvim/pack
 
 .DS_Store
 .netrwhist
