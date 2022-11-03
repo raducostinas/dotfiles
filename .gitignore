@@ -5,9 +5,6 @@ shell/zsh/**/**.zwc
 shell/zsh/**/**.zwc.old
 shell/zsh/.zim
 
-# Modules
-modules
-
 #vim-plug
 editors/vim/autoload
 
