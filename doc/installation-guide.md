@@ -3,6 +3,8 @@
 - [ ] Install dotly / recover dotfiles via restorer
 - [ ] Install Brewfile´s items
 - [ ] Install Nerd Fonts
+- [ ] Copy .ssh folder
+- [ ] Copy .gnupg folder
 - [ ] Install Displaylink Manager
 - [ ] Fix dotly find issue
   - ```
