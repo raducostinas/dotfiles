@@ -13,5 +13,8 @@ editors/vim/plugged
 editors/nvim/plugin/packer_compiled.lua
 editors/nvim/pack
 
+# brew
+os/mac/brew/Brewfile.lock.json
+
 .DS_Store
 .netrwhist
