@@ -5,8 +5,8 @@ RADU_THEME_MODE=${RADU_THEME_MODE:-"dark"}
 RADU_THEME_PROMPT_IN_NEW_LINE=${RADU_THEME_PROMPT_IN_NEW_LINE:-false}
 RADU_THEME_PWD_MODE=${RADU_THEME_PWD_MODE:-"short"} # full, short, home_relative
 
-RADU_THEME_STATUS_ICON_OK=${RADU_THEME_STATUS_ICON_OK:-""}
-RADU_THEME_STATUS_ICON_KO=${RADU_THEME_STATUS_ICON_KO:-""}
+RADU_THEME_STATUS_ICON_OK=${RADU_THEME_STATUS_ICON_OK:-" "}
+RADU_THEME_STATUS_ICON_KO=${RADU_THEME_STATUS_ICON_KO:-" "}
 
  [[ $(echotc Co) -gt 100 ]] && support_color_tones=true || support_color_tones=false
 
@@ -14,6 +14,7 @@ git_no_changes_status="✓"
 git_dirty_status="✗"
 
 if [ "$RADU_THEME_MODE" = "dark" ]; then
+  icon_color="yellow"
   git_branch_color="green"
   git_dirty_status_color="yellow"
   git_no_changes_status_color="white"
@@ -24,6 +25,7 @@ if [ "$RADU_THEME_MODE" = "dark" ]; then
   status_icon_color_ko="red"
   [[ $support_color_tones = true ]] && ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8' || ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=magenta'
 else
+  icon_color="yellow"
   git_branch_color="black"
   git_dirty_status_color="magenta"
   git_no_changes_status_color="green"
@@ -54,7 +56,7 @@ prompt_radu_precmd() {
 }
 
 prompt_radu_setup() {
-  local prompt_radu_status="%(?:%F{diamond_color}{%F{$status_icon_color_ok}$RADU_THEME_STATUS_ICON_OK%F{diamond_color}}:%F{diamond_color}{%F{$status_icon_color_ko}$RADU_THEME_STATUS_ICON_KO%F{diamond_color}})"
+  local prompt_radu_status="%(?:%F{icon_color}%F{$status_icon_color_ok}$RADU_THEME_STATUS_ICON_OK%F{icon_color}:%F{icon_color}%F{$status_icon_color_ko}$RADU_THEME_STATUS_ICON_KO%F{icon_color})"
 
   autoload -Uz add-zsh-hook && add-zsh-hook precmd prompt_radu_precmd
 

@@ -4,7 +4,7 @@
 export RADU_THEME_MINIMAL=false
 export RADU_THEME_MODE="dark"
 export RADU_THEME_PROMPT_IN_NEW_LINE=true
-export RADU_THEME_PWD_MODE="full" # full, short, home_relative
+export RADU_THEME_PWD_MODE="home_relative" # full, short, home_relative
 
 # ------------------------------------------------------------------------------
 # Languages
