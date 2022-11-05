@@ -13,6 +13,7 @@ brew "ansible"
 brew "bash"
 brew "bat"
 brew "coreutils"
+brew "git-delta"
 brew "docker-compose"
 brew "exa"
 brew "exiftool", link: false
