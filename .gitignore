@@ -7,9 +7,9 @@ shell/zsh/.zim
 
 #vim-plug
 editors/vim/autoload
+editors/vim/plugged
 
 # nvim
-editors/vim/plugged
 editors/nvim/plugin/packer_compiled.lua
 editors/nvim/pack
 
