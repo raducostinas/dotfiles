@@ -11,7 +11,7 @@ alias gocode='cd ~/01-Code/'
 
 # Git
 alias gaa="git add -A"
-alias gc='$DOTLY_PATH/bin/dot git commit'
+alias gc='$DOTLY_PATH/bin/dot git own_commit'
 alias gca="git add --all && git commit --amend --no-edit"
 alias gco="git checkout"
 alias gd='$DOTLY_PATH/bin/dot git pretty-diff'
