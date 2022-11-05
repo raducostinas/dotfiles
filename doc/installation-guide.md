@@ -3,6 +3,8 @@
 - [ ] Install dotly / recover dotfiles via restorer
 - [ ] Install Brewfile´s items
 - [ ] Install Nerd Fonts
+- [ ] Install Dank Mono Font
+  - https://github.com/cancng/fonts/blob/master/DankMono.zip
 - [ ] Copy .ssh folder
 - [ ] Copy .gnupg folder
 - [ ] Install Displaylink Manager
@@ -15,3 +17,7 @@
   git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim 
   ```
+- [ ] Open Inellij Idea
+- [ ] Login in on Jet Brains
+- [ ] Install CodelyTV Theme Plugin
+- [ ] Setup Raycast Window Management
