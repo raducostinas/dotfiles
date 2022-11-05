@@ -166,9 +166,3 @@ local snippets_paths = function()
 	end
 	return paths
 end
-
-require("luasnip.loaders.from_vscode").lazy_load({
-	paths = snippets_paths(),
-	include = nil, -- Load all languages
-	exclude = {},
-})

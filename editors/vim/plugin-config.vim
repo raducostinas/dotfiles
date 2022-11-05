@@ -26,19 +26,6 @@ let g:lightline = {
       \ }
       \}
 
-" NerdTree
-let NERDTreeShowHidden=1
-let NERDTreeQuitOnOpen=1
-let NERDTreeAutoDeleteBuffer=1
-let NERDTreeMinimalUI=1
-let NERDTreeDirArrows=1
-let NERDTreeShowLineNumbers=1
-let NERDTreeMapOpenInTab='\t'
-
-" Tmux Navigator
-let g:tmux_navigator_no_mappings=1
-
-
 " if hidden is not set, TextEdit might fail.
 set hidden
 
