@@ -76,7 +76,11 @@ end
 
 require("lspconfig").zls.setup(config())
 
-require("lspconfig").tsserver.setup(config())
+require("lspconfig").tsserver.setup({
+  on_attach = on_attach, 
+  filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascript", "javascriptreact", "javascript.jsx" },
+  capabilities = capabilities,
+})
 
 require("lspconfig").ccls.setup(config())
 
