@@ -31,3 +31,5 @@ source $(brew --prefix nvm)/nvm.sh
 
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 export GPG_TTY=$(tty)
+
+eval "$(jenv init -)"

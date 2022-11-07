@@ -9,7 +9,8 @@ export RADU_THEME_PWD_MODE="home_relative" # full, short, home_relative
 # ------------------------------------------------------------------------------
 # Languages
 # ------------------------------------------------------------------------------
-export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+# export JAVA_HOME="$HOME/.jenv/versions/`jenv version-name`"
+export JAVA_HOME="$HOME/.jenv/"
 export M2_HOME="$HOME/.m2"
 export GEM_HOME="$HOME/.gem"
 export GOPATH="$HOME/01-Code/GO"
