@@ -9,6 +9,7 @@ vim.cmd [[packadd packer.nvim]]
 
 return require('packer').startup(function(use)
     use('wbthomason/packer.nvim')
+    use('nvim-lua/plenary.nvim')
 
     -- Theme
     use('gruvbox-community/gruvbox')
@@ -18,14 +19,22 @@ return require('packer').startup(function(use)
       requires = 'kyazdani42/nvim-web-devicons',
       tag = 'nightly'
     })
+    
 
-    use('nvim-lua/plenary.nvim')
+    -- Telescope
     use('nvim-telescope/telescope.nvim')
-    use{'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
-    use({
-        'nvim-lualine/lualine.nvim',
-        requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+    use('nvim-telescope/telescope-github.nvim')
+    use({'nvim-telescope/telescope-fzf-native.nvim', run = 'make' })
+    use('LinArcX/telescope-command-palette.nvim')
+    use('nvim-telescope/telescope-file-browser.nvim')
+
+    use({'nvim-lualine/lualine.nvim',
+      requires = {
+        'kyazdani42/nvim-web-devicons',
+        opt = true
+      }
     })
+    use('kyazdani42/nvim-web-devicons')
     use('norcalli/nvim-colorizer.lua')
     use('neovim/nvim-lspconfig')
     use('hrsh7th/cmp-nvim-lsp')
@@ -42,9 +51,11 @@ return require('packer').startup(function(use)
     })
     use('jose-elias-alvarez/null-ls.nvim')
     use('MunifTanjim/prettier.nvim')
-    use('gpanders/editorconfig.nvim')
     use('neoclide/coc.nvim')
+    use('editorconfig/editorconfig-vim')
     use('numToStr/Comment.nvim')
     use('alvan/vim-closetag')
     use('tpope/vim-surround')
+    use('Yggdroot/indentLine')
+    use('github/copilot.vim')
 end)
