@@ -17,6 +17,8 @@ set splitbelow
 set splitright
 set hidden
 
+so /Users/raducostinas/.dotfiles/editors/vim/plugins.vim
+
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 highlight Normal ctermbg=NONE
