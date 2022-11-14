@@ -21,3 +21,7 @@
 - [ ] Login in on Jet Brains
 - [ ] Install CodelyTV Theme Plugin
 - [ ] Setup Raycast Window Management
+- [ ] Setup vim
+  - [ ] Install [vim-plug](https://github.com/morhetz/gruvbox/wiki/Installation)
+- [ ] Setup nvim
+    - [ ] Install [packer](https://github.com/wbthomason/packer.nvim)
