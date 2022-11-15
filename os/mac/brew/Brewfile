@@ -86,6 +86,7 @@ cask "rocket"
 cask "signal"
 cask "slack"
 cask "telegram"
+cask "timeular"
 cask "whatsapp"
 cask "zoom"
 mas "Unsplash Wallpapers", id: 1284863847
