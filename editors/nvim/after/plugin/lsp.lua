@@ -2,7 +2,7 @@ local Remap = require('raducostinas.keymap')
 local nnoremap = Remap.nnoremap
 local inoremap = Remap.inoremap
 
-local sumneko_root_path = '/usr/local/Cellar/lua-language-server/3.5.6'
+local sumneko_root_path = '/usr/local/Cellar/lua-language-server/3.6.3'
 local sumneko_binary = sumneko_root_path .. '/bin/lua-language-server'
 
 -- Setup nvim-cmp.
