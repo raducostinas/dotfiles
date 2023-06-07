@@ -40,3 +40,7 @@ function openNvim {
     nvim $1
   fi
 }
+
+# GS
+alias gsbk='cd ~/01-Code/JAVA/java-gs-backend'
+alias gsfr='cd ~/01-Code/ANGULAR/angular-gs-frontend'
