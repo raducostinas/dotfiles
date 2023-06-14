@@ -1,4 +1,4 @@
-- clean: ['~']
+- clean: ["~"]
 
 - defaults:
     link:
@@ -22,3 +22,6 @@
     ~/.vimrc: editors/vim/.vimrc
     ~/.config/nvim: editors/nvim
     ~/.ideavimrc: editors/ideavim/.ideavimrc
+    ~/Library/Application\ Support/Code/User/settings.json: editors/code/settings.json
+    ~/Library/Application\ Support/Code/User/keybindings.json: editors/code/keybindings.json
+    ~/Library/Application\ Support/Code/User/radu-costinas-snippets.code-snippets: editors/code/radu-costinas-snippets.code-snippets
