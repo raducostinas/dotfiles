@@ -6,8 +6,9 @@ alias ...="cd ../.."
 alias ll="exa -l"
 alias la="exa -la"
 alias ~="cd ~"
+alias gh="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
-alias gocode='cd ~/01-Code/'
+alias gcd='cd ~/01-Code/'
 
 # Git
 alias gaa="git add -A"
@@ -41,6 +42,3 @@ function openNvim {
   fi
 }
 
-# GS
-alias gsbk='cd ~/01-Code/JAVA/java-gs-backend'
-alias gsfr='cd ~/01-Code/ANGULAR/angular-gs-frontend'
