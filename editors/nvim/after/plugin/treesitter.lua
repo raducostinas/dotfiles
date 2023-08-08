@@ -1,9 +1,20 @@
-require'nvim-treesitter.configs'.setup {
-    ensure_installed = "all",
-    sync_install = false,
+local config = require('nvim-treesitter.configs')
 
-    highlight = {
-        enable = true,
-        additional_vim_regex_highlighting = false,
+config.setup {
+    sync_install = true,
+    modules = {},
+    ignore_install = {},
+    ensure_installed = {
+        'javascript',
+        'typescript',
+        'tsx',
+        'lua',
+        'rust',
+        'go',
+        'vimdoc',
+        'vim'
     },
+    auto_install = false,
+    highlight = { enable = false },
+    indent = { enable = true },
 }

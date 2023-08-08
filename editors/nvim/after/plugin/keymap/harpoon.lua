@@ -1,0 +1,11 @@
+--local Remap = require('raducostinas.keymap')
+--local mark = require('harpoon.mark')
+--local ui = require('harpoon.ui')
+--local nnremap = Remap.nnoremap
+--
+--nnremap('<C-a>', mark.add_file)
+--nnremap('<C-e>', ui.toggle_quick_menu)
+--nnremap('<C-h>', function() ui.nav_file(1) end)
+--nnremap('<C-t>', function() ui.nav_file(2) end)
+--nnremap('<C-n>', function() ui.nav_file(3) end)
+--nnremap('<C-s>', function() ui.nav_file(4) end)

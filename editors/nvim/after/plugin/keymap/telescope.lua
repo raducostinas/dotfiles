@@ -1,28 +1,27 @@
-local Remap = require('raducostinas.keymap')
-local nnoremap = Remap.nnoremap
-local nmap = Remap.nmap
+local remap = require('raducostinas.keymap')
+local nnoremap = remap.nnoremap
 local builtin = require('telescope.builtin')
-local command_palette = require('telescope').extensions.command_palette
+local themes = require('telescope.themes')
 
-nnoremap('<C-p>', ':Telescope')
-nnoremap('<leader><space>', function()
-    builtin.buffers()    
-end)
-nnoremap('<leader>?', function()
-    builtin.oldfiles()    
-end)
-nnoremap('<leader>ff', function()
-    builtin.find_files()    
-end)
-nnoremap('<leader>fg', function()
-    builtin.live_grep()
-end)
-nnoremap('<leader>fb', function()
-    builtin.buffers()
-end)
-nnoremap('<leader>fs', function()
-    builtin.current_buffer_fuzzy_find()
-end)
-nnoremap('<leader>k', function()
-    command_palette.command_palette()
-end)
+nnoremap('<leader>?', builtin.oldfiles, { desc = '[?] Find recently opened files' })
+
+nnoremap('<leader><space>', builtin.buffers, { desc = '[ ] Find existing buffers' })
+
+nnoremap('<leader>/', function()
+    builtin.current_buffer_fuzzy_find(themes.get_dropdown({
+        winblend = 10,
+        previewer = false,
+    }))
+end, { desc = '[/] Fuzzily search in current buffer' })
+
+nnoremap('<leader>gf', builtin.git_files, { desc = 'Search [G]it [F]iles' })
+
+nnoremap('<leader>sf', builtin.find_files, { desc = '[S]earch [F]iles' })
+
+nnoremap('<leader>sh', builtin.help_tags, { desc = '[S]earch [H]' })
+
+nnoremap('<leader>sw', builtin.grep_string, { desc = '[S]earch current [W]ord' })
+
+nnoremap('<leader>sg', builtin.live_grep, { desc = '[S]earch by [G]rep' })
+
+nnoremap('<leader>sd', builtin.diagnostics, { desc = '[S]earch [D]iagnostics' })

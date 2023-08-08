@@ -1,5 +1,5 @@
-local Remap = require('raducostinas.keymap')
-local nnoremap = Remap.nnoremap
+local remap = require('raducostinas.keymap')
+local nnoremap = remap.nnoremap
 
 nnoremap('<leader>zc', 'zc')
 nnoremap('<leader>za', 'za')
