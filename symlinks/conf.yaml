@@ -21,6 +21,8 @@
     ~/.gitignore_global: git/.gitignore_global
     ~/.vimrc: editors/vim/.vimrc
     ~/.config/nvim: editors/nvim
+    ~/.config/alacritty: terminal-emulators/alacritty
+    ~/.config/kitty: terminal-emulators/kitty
     ~/.ideavimrc: editors/ideavim/.ideavimrc
     ~/Library/Application\ Support/Code/User/settings.json: editors/code/settings.json
     ~/Library/Application\ Support/Code/User/keybindings.json: editors/code/keybindings.json
