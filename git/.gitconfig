@@ -1,7 +1,11 @@
-[user]
-	name = Radu Costinas
-	email = r.costinas@gmx.es
-	signingkey = DAAB58C5CB9B8243
+[includeIf "gitdir/i:~/01-Code/raducostinas/"]
+  path = ~/01-Code/raducostinas/.gitconfig
+
+[includeIf "gitdir/i:~/.dotfiles/"]
+  path = ~/01-Code/raducostinas/.gitconfig
+
+[includeIf "gitdir/i:~/01-Code/10labs/"]
+  path = ~/01-Code/10labs/.gitconfig
 
 [fetch]
 	prune = true
@@ -19,7 +23,7 @@
 [core]
 	excludesfile = ~/.gitignore_global
 	attributesfile = ~/.gitattributes
-	editor = vim
+	editor = nvim
 	autocrlf = input
 	trustctime = false
 	precomposeunicode = false
@@ -100,3 +104,5 @@
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[http]
+	sslVerify = false

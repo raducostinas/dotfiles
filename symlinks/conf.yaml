@@ -24,6 +24,8 @@
     ~/.config/alacritty: terminal-emulators/alacritty
     ~/.config/kitty: terminal-emulators/kitty
     ~/.ideavimrc: editors/ideavim/.ideavimrc
+    ~/01-Code/10labs/.gitconfig: git/10labs/.gitconfig
+    ~/01-Code/raducostinas/.gitconfig: git/raducostinas/.gitconfig
     ~/Library/Application\ Support/Code/User/settings.json: editors/code/settings.json
     ~/Library/Application\ Support/Code/User/keybindings.json: editors/code/keybindings.json
     ~/Library/Application\ Support/Code/User/radu-costinas-snippets.code-snippets: editors/code/radu-costinas-snippets.code-snippets
