@@ -1,0 +1,64 @@
+window:
+  opacity: 0.7
+  decorations: buttonless
+  startup_mode: Maximized
+
+# Font Customization
+font:
+  normal:
+    family: OperatorMono Nerd Font Mono
+    style: Regular
+
+  bold:
+    family: OperatorMono Nerd Font Mono
+    style: Bold
+
+  bold_italic:
+    family: OperatorMono Nerd Font Mono
+    style: Bold Italic
+
+  italic:
+    family: OperatorMono Nerd Font Mono
+    style: Italic
+
+  size: 16
+
+  offset:
+    x: 0
+    y: 0
+
+  glyph_offset:
+    x: 0
+    y: 0
+
+# Colors (Gruvbox dark)
+colors:
+  # Default colors
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '0x282828'
+    # soft contrast: background = '0x32302f'
+    foreground: '0xFBF1C7'
+
+  # Normal colors
+  normal:
+    black:   '0x282828'
+    red:     '0xcc241d'
+    green:   '0x689D6A'
+    yellow:  '0xFFE17B'
+    blue:    '0x30A2FF'
+    magenta: '0xEA1179'
+    cyan:    '0x78C1F3'
+    white:   '0xA89984'
+
+  # Bright colors
+  bright:
+    black:   '0x928374'
+    red:     '0xFB4934'
+    green:   '0x8EC07C'
+    yellow:  '0xFABD2F'
+    blue:    '0x00C4FF'
+    magenta: '0xF79BD3'
+    cyan:    '0x9BE8D8'
+    white:   '0xebdbb2'
+
