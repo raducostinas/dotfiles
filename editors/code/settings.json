@@ -29,7 +29,6 @@
     "files.eol": "\n",
     "focus.opacity": "0.7",
     "focus.highlightRange": "block",
-    "workbench.statusBar.visible": false,
     "workbench.editor.showTabs": false,
     "workbench.colorTheme": "Codely Dark",
     "workbench.list.smoothScrolling": true,
@@ -43,7 +42,6 @@
     "symbols.hidesExplorerArrows": false,
     "eslint.format.enable": true,
     "jest.autoRun": "off",
-
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
@@ -53,7 +51,85 @@
             "source.addMissingImports",
             "source.fixAll.eslint"
         ],
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     },
+    "[typescriptreact]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": [
+            "source.addMissingImports",
+            "source.fixAll.eslint"
+        ],
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    },
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": [
+            "source.addMissingImports",
+            "source.fixAll.eslint"
+        ],
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    },
+    "eslint.packageManager": "yarn",
+    "eslint.enable": true,
+    "eslint.validate": [
+        "typescript",
+        "javascript",
+    ],
+    "eslint.codeActionsOnSave.rules": null,
     "gitlens.codeLens.enabled": false,
     "git.openRepositoryInParentFolders": "always",
+    "workbench.startupEditor": "none",
+    "vim.enableNeovim": true,
+    "vim.smartRelativeLine": true,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-n>"
+            ],
+            "commands": [
+                ":nohl"
+            ]
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "commands": [
+                "lineBreakInsert"
+            ],
+            "silent": true
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "editor.inlineSuggest.enabled": true
 }
