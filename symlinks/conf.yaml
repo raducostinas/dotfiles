@@ -17,6 +17,7 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.inputrc: shell/.inputrc
+    ~/.tmux.conf: terminal-emulators/tmux/.tmux.conf
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore_global: git/.gitignore_global
     ~/.vimrc: editors/vim/.vimrc
