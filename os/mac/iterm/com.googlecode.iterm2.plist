@@ -897,13 +897,13 @@
 			<key>Name</key>
 			<string>Radu</string>
 			<key>Non Ascii Font</key>
-			<string>FiraMonoNFM-Regular 14</string>
+			<string>OperatorMonoNFM 14</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Non-ASCII Ligatures</key>
 			<false/>
 			<key>Normal Font</key>
-			<string>OperatorMono-Light 18</string>
+			<string>OperatorMonoNFM 18</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<true/>
 			<key>Open Toolbelt</key>
