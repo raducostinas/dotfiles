@@ -8,6 +8,7 @@ alias la="exa -la"
 alias ~="cd ~"
 alias gh="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
+alias dt='cd $DOTFILES_PATH'
 alias gcd='cd ~/01-Code/'
 
 # Git
