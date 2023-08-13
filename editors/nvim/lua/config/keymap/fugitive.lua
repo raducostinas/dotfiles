@@ -1,30 +1,22 @@
 return {
   {
     "<C-t>",
-    function()
-      vim.cmd("Git")
-    end,
+    ":Git<cr>",
     desc = "[G]it status",
   },
   {
     "<leader>ga",
-    function()
-      vim.cmd("Git fetch --all -p<cr>")
-    end,
+    ":Git fetch --all -p<cr>",
     desc = "[G]it [F]etch [A]ll",
   },
   {
     "<leader>gps",
-    function()
-      vim.cmd("Git push<cr>")
-    end,
+    ":Git push<cr>",
     desc = "[G]it [P]u[S]h",
   },
   {
     "<leader>gpl",
-    function()
-      vim.cmd("Git pull<cr>")
-    end,
+    ":Git pull<cr>",
     desc = "[G]it [P]u[L]l",
   }
 }
