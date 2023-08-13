@@ -1,3 +1,5 @@
+let g:loaded_ruby_provider = 0
+let g:loaded_perl_provider = 0
 set number
 set mouse=a
 set numberwidth=1
@@ -19,8 +21,12 @@ set hidden
 
 so /Users/raducostinas/.dotfiles/editors/vim/plugins.vim
 
-colorscheme gruvbox
+set bg=dark
+let g:gruvbox_bold=1
+let g:gruvbox_italic=1
+let g:gruvbox_termcolors = 256
 let g:gruvbox_contrast_dark = "hard"
+colorscheme gruvbox
 highlight Normal ctermbg=NONE
 
 "" Searching

@@ -1,3 +1,1 @@
-require("raducostinas")
-
-vim.cmd([[colorscheme gruvbox]])
+require("config")

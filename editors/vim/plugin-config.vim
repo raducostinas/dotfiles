@@ -33,11 +33,11 @@ set hidden
 set cmdheight=1
 
 " Editor Config
-let g:EditorConfig_indent_style = 'space'
+let g:EditorConfig_indent_style = 'tab'
 let g:EditorConfig_indent_size = 2
 let g:EditorConfig_insert_final_newline = 1
 let g:EditorConfig_trim_trailing_whitespace = 1
-let g:EditorConfig_max_line_length = 120
+let g:EditorConfig_max_line_length = 80
 
 au FileType gitcommit let b:EditorConfig_disable = 1
 au FileType *.md let b:EditorConfig_max_line_length = 'off'
