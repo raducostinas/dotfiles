@@ -3,3 +3,8 @@
 [user]
   name = Radu Costinas
   email = radu@10labs.es
+[commit]
+	gpgsign = false
+[tag]
+	gpgsign = false
+

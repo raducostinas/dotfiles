@@ -4,3 +4,10 @@
   name = Radu Costinas
   email = r.costinas@gmx.es
 	signingkey = DAAB58C5CB9B8243
+[commit]
+	gpgsign = true
+[tag]
+	gpgsign = true
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg
+

@@ -30,7 +30,14 @@
 	pager = delta --dark
 	ignorecase = false
 
+[interactive]
+  diffFilter = delta --color-only
+
+[merge]
+  conflictstyle = diff3
+
 [delta]
+    navigate = true
     features = line-numbers decorations
     whitespace-error-style = 22 reverse
 
@@ -51,6 +58,7 @@
 	tool = vimdiff
 	compactionHeuristic = true
 	indentHeuristic = true
+  colorMoved = default
 
 [difftool]
 	prompt = false
@@ -91,12 +99,6 @@
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
-[commit]
-	gpgsign = true
-[tag]
-	gpgsign = true
-[gpg]
-	program = /usr/local/MacGPG2/bin/gpg
 [pull]
 	rebase = true
 [filter "lfs"]
