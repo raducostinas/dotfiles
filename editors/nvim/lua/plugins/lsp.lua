@@ -35,6 +35,8 @@ return {
     local lua_ls_setup = require("config.lua-ls")
     require('lspconfig').lua_ls.setup(lua_ls_setup)
 
+    lsp.skip_server_setup({'jdtls'})
+
     lsp.setup()
   end
 }
