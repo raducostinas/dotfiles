@@ -111,3 +111,7 @@
 
 [alias]
   clone-for-worktrees = "!sh $DOTFILES_PATH/scripts/git/clone_for_worktrees"
+[init]
+	defaultBranch = main
+#[url "git@bitbucket.org.10labs_team"]
+#	inteadOf = https://bitbucket.org/10labs_team
