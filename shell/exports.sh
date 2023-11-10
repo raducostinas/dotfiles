@@ -13,7 +13,9 @@ export RADU_THEME_PWD_MODE="home_relative" # full, short, home_relative
 export JAVA_HOME="$HOME/.jenv/"
 export M2_HOME="$HOME/.m2"
 export GEM_HOME="$HOME/.gem"
-export GOPATH="$HOME/01-Code/GO"
+export GOPATH="$HOME/01-Code/raducostinas/go:$HOME/01-Code/10labs/go"
+export GO111MODULE="on"
+#export GOPRIVATE="bitbucket.org/10labs_team"
 export GVM_HOME="$HOME/.gvm"
 export NVM_DIR="$HOME/.nvm"
 # ------------------------------------------------------------------------------
