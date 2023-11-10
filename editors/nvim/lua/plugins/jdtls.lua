@@ -195,7 +195,7 @@ return {
         '-data',
         data_dir,
       }
-    
+
       local lsp_settings = {
         java = {
           eclipse = {

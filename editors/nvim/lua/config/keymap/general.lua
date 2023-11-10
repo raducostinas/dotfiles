@@ -8,6 +8,11 @@ local nnoremap = utils.nnoremap
 local vnoremap = utils.vnoremap
 local xnoremap = utils.xnoremap
 
+nnoremap(
+  "FF",
+  vim.cmd.EslintFixAll,
+  { desc = "[F]ormat file with Eslint" }
+)
 -- Explorer
 nnoremap("<leader>vp", vim.cmd.Ex)
 

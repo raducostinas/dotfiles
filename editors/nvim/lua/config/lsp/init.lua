@@ -11,6 +11,7 @@ function M.servers()
     'lua_ls',
     'rust_analyzer',
     'tsserver',
+    'gopls'
   }
 end
 

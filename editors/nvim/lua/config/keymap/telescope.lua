@@ -18,7 +18,7 @@ return {
     function()
       require("config.telescope").project_files()
     end,
-    desc = "Search [G]it [F]iles" 
+    desc = "Search [G]it [F]iles"
   },
   {
     "<leader>sdf",
