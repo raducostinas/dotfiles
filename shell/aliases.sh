@@ -24,6 +24,9 @@ alias gpsf="git push --force"
 alias gpl="git pull --rebase --autostash"
 alias gb="git branch"
 alias gl='$DOTLY_PATH/bin/dot git pretty-log'
+alias gwa="git worktree add"
+alias gwr="git worktree remove"
+alias gwl="git worktree list"
 
 # Utils
 alias k='kill -9'
