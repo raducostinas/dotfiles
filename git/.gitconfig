@@ -7,6 +7,9 @@
 [includeIf "gitdir/i:~/01-Code/10labs/"]
   path = ~/01-Code/10labs/.gitconfig
 
+[includeIf "gitdir/i:~/00-Obsidian/LEARNING-PATH/"]
+  path = ~/01-Code/10labs/.gitconfig
+
 [fetch]
 	prune = true
 
