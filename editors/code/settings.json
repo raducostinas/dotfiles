@@ -29,7 +29,7 @@
     "files.eol": "\n",
     "focus.opacity": "0.7",
     "focus.highlightRange": "block",
-    "workbench.editor.showTabs": false,
+    "workbench.editor.showTabs": "single",
     "workbench.colorTheme": "Codely Dark",
     "workbench.list.smoothScrolling": true,
     "workbench.list.horizontalScrolling": true,
