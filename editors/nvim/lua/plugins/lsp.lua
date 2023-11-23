@@ -15,7 +15,7 @@ return {
     lsp.ensure_installed(lsp_config.servers())
     lsp.set_sign_icons(lsp_config.set_icons())
 
-    lsp.on_attach(function(_, bufnr)
+    local on_attach = function(_, bufnr)
       -- see :help lsp-zero-keybindings
       -- to learn the available actions
       require("config.keymap.lsp").keymaps(bufnr)
@@ -29,11 +29,19 @@ return {
         end,
         { desc = 'Format current buffer with LSP' }
       )
-    end)
+    end
+
+    lsp.on_attach(on_attach)
 
     -- (Optional) Configure lua language server for neovim
     local lua_ls_setup = require("config.lua-ls")
     require('lspconfig').lua_ls.setup(lua_ls_setup)
+
+    local dart_ls_setup = require("config.dart-ls")
+    require('lspconfig').dartls.setup({
+      on_attach = on_attach,
+      settings = dart_ls_setup,
+  });
 
     lsp.skip_server_setup({'jdtls'})
 
