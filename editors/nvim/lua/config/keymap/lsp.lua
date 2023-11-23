@@ -61,7 +61,6 @@ function M.keymaps(bufnr)
     { buffer = bufnr, remap = false, desc = "Hover Documentation" }
   )
 
-
   nnoremap(
     "<leader>vd",
     vim.diagnostic.open_float,
@@ -77,6 +76,12 @@ function M.keymaps(bufnr)
   nnoremap(
     "]d",
     vim.diagnostic.goto_prev,
+    opts
+  )
+
+  nnoremap(
+    "<leader>BF",
+    vim.lsp.buf.format,
     opts
   )
 
