@@ -41,9 +41,11 @@ return {
     require('lspconfig').dartls.setup({
       on_attach = on_attach,
       settings = dart_ls_setup,
-  });
+    });
 
-    lsp.skip_server_setup({'jdtls'})
+    require('lspconfig').biome.setup({})
+
+    lsp.skip_server_setup({ 'jdtls' })
 
     lsp.setup()
   end

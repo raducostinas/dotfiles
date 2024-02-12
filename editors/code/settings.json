@@ -43,7 +43,7 @@
     "eslint.format.enable": true,
     "jest.autoRun": "off",
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.organizeImports": "explicit"
     },
     "[typescript]": {
         "editor.formatOnSave": false,
