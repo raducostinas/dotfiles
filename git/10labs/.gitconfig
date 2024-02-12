@@ -3,8 +3,11 @@
 [user]
   name = Radu Costinas
   email = radu@10labs.es
+  signingkey = B83EB9F3D3E9E606
 [commit]
-	gpgsign = false
+	gpgsign = true
 [tag]
-	gpgsign = false
+  gpgsign = true
+[gpg]
+  program = /usr/local/MacGPG2/bin/gpg
 
