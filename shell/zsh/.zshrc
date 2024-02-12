@@ -33,3 +33,5 @@ source $(brew --prefix nvm)/nvm.sh
 export GPG_TTY=$(tty)
 
 eval "$(jenv init -)"
+
+source "$HOME/.config/broot/launcher/bash/br"

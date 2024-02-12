@@ -49,3 +49,5 @@ if [ -n "$(ls -A "$DOTFILES_PATH/shell/bash/completions/")" ]; then
   done
 fi
 . "$HOME/.cargo/env"
+
+source /Users/raducostinas/.config/broot/launcher/bash/br

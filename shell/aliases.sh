@@ -10,6 +10,7 @@ alias gh="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
 alias dt='cd $DOTFILES_PATH'
 alias gcd='cd ~/01-Code/'
+alias gobd='cd ~/00-Obsidian/'
 
 # Git
 alias gaa="git add -A"

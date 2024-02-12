@@ -43,6 +43,7 @@ path+=(
   "$GOPATH/bin"
   "$HOME/.cargo/bin"
   "/usr/local/opt/ruby/bin"
+  "/usr/lib/dart/bin"
   "/usr/local/opt/python/libexec/bin"
   "/opt/homebrew/bin"
   "/usr/local/bin"
