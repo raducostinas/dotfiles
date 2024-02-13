@@ -7,7 +7,7 @@ local sections = {
   lualine_z = {'location'}
 }
 
-local theme = 'gruvbox'
+local theme = 'tokyonight'
 
 if vim.g.raducostinas_lualine_color then
   theme = vim.g.raducostinas_lualine_color
