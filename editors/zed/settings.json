@@ -1,0 +1,26 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "theme": "Rosé Pine",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "show_whitespaces": "all",
+  "soft_wrap": "preferred_line_length",
+  "tab_size": 2,
+  "preferred_line_length": 80,
+  "enable_language_server": true,
+  "hard_tabs": true,
+  "buffer_font_family": "OperatorMono Nerd Font Mono",
+  "vim_mode": true,
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "project_panel": {
+    "indent_size": 10
+  }
+}

@@ -21,6 +21,7 @@
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore_global: git/.gitignore_global
     ~/.vimrc: editors/vim/.vimrc
+    ~/.config/zed/settings.json: editors/zed/settings.json
     ~/.config/nvim: editors/nvim
     ~/.config/alacritty: terminal-emulators/alacritty
     ~/.config/kitty: terminal-emulators/kitty
