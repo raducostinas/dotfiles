@@ -10,7 +10,7 @@ local xnoremap = utils.xnoremap
 
 nnoremap(
   "FF",
-  vim.cmd.EslintFixAll,
+  vim.cmd.Format,
   { desc = "[F]ormat file with Eslint" }
 )
 -- Explorer

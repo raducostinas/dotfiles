@@ -13,7 +13,7 @@ return {
     local lsp_config = require("config.lsp")
 
     lsp.ensure_installed(lsp_config.servers())
-    lsp.set_sign_icons(lsp_config.set_icons())
+    lsp.set_sign_icons(lsp_config.set_icons()) 
 
     local on_attach = function(_, bufnr)
       -- see :help lsp-zero-keybindings
@@ -42,8 +42,6 @@ return {
       on_attach = on_attach,
       settings = dart_ls_setup,
     });
-
-    require('lspconfig').biome.setup({})
 
     lsp.skip_server_setup({ 'jdtls' })
 
