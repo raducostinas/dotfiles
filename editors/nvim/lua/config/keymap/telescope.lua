@@ -1,7 +1,7 @@
 return {
   {
     "<leader>T",
-    function ()
+    function()
       vim.cmd("Telescope")
     end,
     desc = "Open [T]elescope"
@@ -80,10 +80,10 @@ return {
     "<leader>/",
     function()
       require("telescope.builtin").current_buffer_fuzzy_find(
-      require("telescope.themes").get_dropdown({
-        winblend = 10,
-        previewer = false,
-      })
+        require("telescope.themes").get_dropdown({
+          winblend = 10,
+          previewer = false,
+        })
       )
     end,
     desc = "[/] Fuzzily search in current buffer"
@@ -93,4 +93,10 @@ return {
     "<cmd>Telescope cmdline<cr>",
     desc = "[:] Cmdline"
   },
+  {
+    "<leader>fb",
+    ":Telescope file_browser path=%:p:h select_buffer=true<CR>",
+    { noremap = true }
+  }
+
 }

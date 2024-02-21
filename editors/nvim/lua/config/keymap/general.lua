@@ -14,7 +14,7 @@ nnoremap(
   { desc = "[F]ormat file with Eslint" }
 )
 -- Explorer
-nnoremap("<leader>vp", vim.cmd.Ex)
+nnoremap("<leader>vp", vim.cmd.Oil)
 
 -- Move line up and down in visual mode
 vnoremap(

@@ -11,7 +11,8 @@ return {
           return vim.fn.executable 'make' == 1
         end,
       },
-      { "jonarrien/telescope-cmdline.nvim" }
+      { "jonarrien/telescope-cmdline.nvim" },
+      { "nvim-tree/nvim-web-devicons" }
     },
     cmd = "Telescope",
     keys = require("config.keymap.telescope"),
@@ -33,6 +34,15 @@ return {
         find_files = {
           theme = "dropdown",
         }
+      },
+      extensions = {
+        file_browser = {
+          hijack_netrw = true,
+          mappings = {
+            ["i"] = {},
+            ["n"] = {}
+          }
+        }
       }
     },
     config = function(_, opts)
@@ -40,6 +50,7 @@ return {
       telescope.setup(opts)
       telescope.load_extension("fzf")
       telescope.load_extension("cmdline")
+      telescope.load_extension("file_browser")
     end,
   }
 }
