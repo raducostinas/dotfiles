@@ -47,7 +47,7 @@ style = "Regular"
 
 [font.offset]
 x = 0
-y = 16
+y = 0
 
 [shell]
 args = ["-l", "-c", "tmux attach || tmux"]
@@ -55,5 +55,9 @@ program = "/bin/zsh"
 
 [window]
 decorations = "buttonless"
-opacity = 0.7
+opacity = 1.0
 startup_mode = "Maximized"
+
+[window.padding]
+x=15
+y=10

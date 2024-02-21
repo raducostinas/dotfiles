@@ -1,5 +1,12 @@
 return {
   {
+    "<leader>T",
+    function ()
+      vim.cmd("Telescope")
+    end,
+    desc = "Open [T]elescope"
+  },
+  {
     "<leader>?",
     function()
       require("config.telescope").opened_files()
@@ -80,5 +87,10 @@ return {
       )
     end,
     desc = "[/] Fuzzily search in current buffer"
+  },
+  {
+    "<leader>:",
+    "<cmd>Telescope cmdline<cr>",
+    desc = "[:] Cmdline"
   },
 }

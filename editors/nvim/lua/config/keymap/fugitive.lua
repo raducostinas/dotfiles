@@ -1,6 +1,6 @@
 return {
   {
-    "<C-t>",
+    "<leader>gs",
     ":Git<cr>",
     desc = "[G]it status",
   },
