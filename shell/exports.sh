@@ -27,7 +27,10 @@ else
   fzf_colors="pointer:#db0f35,bg+:#d6d6d6,fg:#808080,fg+:#363636,hl:#8ec07c,info:#928374,header:#fffee3"
 fi
 
+# fzf
 export FZF_DEFAULT_OPTS="--color=$fzf_colors --reverse"
+export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow'
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # ------------------------------------------------------------------------------
 # Path - The higher it is, the more priority it has
