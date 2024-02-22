@@ -32,3 +32,4 @@ options.list = true
 options.isfname:append("@-@")
 options.listchars:append({ space = '⋅' })
 options.listchars:append({ eol = '↴' })
+options.swapfile = false
