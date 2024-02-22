@@ -50,7 +50,7 @@ x = 0
 y = 0
 
 [shell]
-args = ["-l", "-c", "sh ~/.dotfiles/scripts/tmux/connect-session.sh"]
+args = ["-l", "-c", "sh $DOTFILES_PATH/scripts/tmux/list-sessions.sh"]
 program = "/bin/zsh"
 
 [window]

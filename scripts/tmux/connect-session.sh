@@ -10,4 +10,3 @@ sesh connect $(
 		--bind 'ctrl-x:change-prompt(📁  )+reload(sesh list -z)' \
 		--bind 'ctrl-f:change-prompt(🔎  )+reload(fd -H -d 2 -t d -E .Trash . ~)'
 )
-
