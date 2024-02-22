@@ -17,14 +17,13 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.inputrc: shell/.inputrc
-    ~/.tmux.conf: terminal-emulators/tmux/.tmux.conf
+    ~/.tmux.conf: terminal-multiplexers/tmux/.tmux.conf
     ~/.gitconfig: git/.gitconfig
     ~/.gitignore_global: git/.gitignore_global
     ~/.vimrc: editors/vim/.vimrc
     ~/.config/zed/settings.json: editors/zed/settings.json
     ~/.config/nvim: editors/nvim
     ~/.config/alacritty: terminal-emulators/alacritty
-    ~/.config/kitty: terminal-emulators/kitty
     ~/.ideavimrc: editors/ideavim/.ideavimrc
     ~/01-Code/10labs/.gitconfig: git/10labs/.gitconfig
     ~/01-Code/raducostinas/.gitconfig: git/raducostinas/.gitconfig
