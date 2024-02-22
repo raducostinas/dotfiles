@@ -8,12 +8,6 @@ return {
     { 'williamboman/mason.nvim' },
   },
   config = function()
-    require("cmp").setup({
-      sources = {
-        { name = "nvim_lsp" },
-        { name = "codeium" },
-      }
-    })
 
     -- This is where all the LSP shenanigans will live
     local lsp = require("lsp-zero")

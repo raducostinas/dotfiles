@@ -1,6 +1,9 @@
 return {
   'stevearc/oil.nvim',
   opts = {},
-  keys = require("config.keymap.oil"),
   dependencies = { "nvim-tree/nvim-web-devicons" },
+  config = function()
+    require("oil").setup({})
+    require("config.keymap.oil").keymaps()
+  end
 }
