@@ -24,6 +24,8 @@
     ~/.config/zed/settings.json: editors/zed/settings.json
     ~/.config/nvim: editors/nvim
     ~/.config/alacritty: terminal-emulators/alacritty
+    ~/.config/yabai/yabairc: os/mac/windows-management/yabai/yabairc
+    ~/.config/skhd/skhdrc: os/mac/windows-management/skhd/skhdrc
     ~/.ideavimrc: editors/ideavim/.ideavimrc
     ~/01-Code/10labs/.gitconfig: git/10labs/.gitconfig
     ~/01-Code/raducostinas/.gitconfig: git/raducostinas/.gitconfig
