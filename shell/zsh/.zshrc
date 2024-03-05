@@ -35,3 +35,5 @@ export GPG_TTY=$(tty)
 eval "$(jenv init -)"
 
 source "$HOME/.config/broot/launcher/bash/br"
+
+eval "$(zoxide init zsh)"

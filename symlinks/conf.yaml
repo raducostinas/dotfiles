@@ -16,6 +16,7 @@
     ~/.zlogin: shell/zsh/.zlogin
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
+    ~/.config/fish: shell/fish/
     ~/.inputrc: shell/.inputrc
     ~/.tmux.conf: terminal-multiplexers/tmux/.tmux.conf
     ~/.gitconfig: git/.gitconfig
@@ -23,7 +24,9 @@
     ~/.vimrc: editors/vim/.vimrc
     ~/.config/zed/settings.json: editors/zed/settings.json
     ~/.config/nvim: editors/nvim
+    ~/.config/helix: editors/helix
     ~/.config/alacritty: terminal-emulators/alacritty
+    ~/.config/zellij: terminal-multiplexers/zellij
     ~/.config/yabai/yabairc: os/mac/windows-management/yabai/yabairc
     ~/.config/skhd/skhdrc: os/mac/windows-management/skhd/skhdrc
     ~/.ideavimrc: editors/ideavim/.ideavimrc

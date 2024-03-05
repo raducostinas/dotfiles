@@ -49,10 +49,6 @@ style = "Regular"
 x = 0
 y = 0
 
-[shell]
-args = ["-l", "-c", "sh $DOTFILES_PATH/scripts/tmux/list-sessions.sh"]
-program = "/bin/zsh"
-
 [window]
 decorations = "buttonless"
 opacity = 1.0
@@ -61,3 +57,7 @@ startup_mode = "Maximized"
 [window.padding]
 x = 15
 y = 10
+
+[shell]
+program = "/usr/local/bin/fish"
+args = ["-l", "-c", "zsm attach"]

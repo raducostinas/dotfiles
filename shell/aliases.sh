@@ -1,16 +1,16 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
-alias ..="cd .."
-alias ...="cd ../.."
+alias ..="z .."
+alias ...="z ../.."
 alias ll="exa -l"
 alias la="exa -la"
-alias ~="cd ~"
-alias gh="cd ~"
-alias dotfiles='cd $DOTFILES_PATH'
-alias dt='cd $DOTFILES_PATH'
-alias gcd='cd ~/01-Code/'
-alias gobd='cd ~/00-Obsidian/'
+alias ~="z ~"
+alias gh="z ~"
+alias dotfiles='z $DOTFILES_PATH'
+alias dt='z $DOTFILES_PATH'
+alias gcd='z ~/01-Code/'
+alias gobd='z ~/00-Obsidian/'
 
 # Git
 alias gaa="git add -A"

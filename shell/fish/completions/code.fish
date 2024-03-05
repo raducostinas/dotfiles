@@ -1,0 +1,5 @@
+complete --command code --exclusive --long help --description "Print help"
+complete --command code --exclusive --long version --description "Print version"
+complete --command code --exclusive --condition __fish_use_subcommand --arguments personal --description "Go to personal code directory"
+complete --command code --exclusive --condition __fish_use_subcommand --arguments 10labs --description "Go to 10labs code directory"
+complete --command code --exclusive --condition __fish_use_subcommand --arguments root --description "Go to code directory"

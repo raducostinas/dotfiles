@@ -1,6 +1,6 @@
 return {
   dimming = {
-    alpha = 0.25,
+    alpha = 0.5,
     color = { "Normal", "#ffffff" },
     term_bg = "#000000",
     inactive = false,

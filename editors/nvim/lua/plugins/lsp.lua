@@ -8,13 +8,12 @@ return {
     { 'williamboman/mason.nvim' },
   },
   config = function()
-
     -- This is where all the LSP shenanigans will live
     local lsp = require("lsp-zero")
     local lsp_config = require("config.lsp")
 
     lsp.ensure_installed(lsp_config.servers())
-    lsp.set_sign_icons(lsp_config.set_icons()) 
+    lsp.set_sign_icons(lsp_config.set_icons())
 
     local on_attach = function(_, bufnr)
       -- see :help lsp-zero-keybindings
